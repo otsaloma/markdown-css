@@ -119,7 +119,7 @@ ol, ul { padding-left: 2rem;
          -webkit-padding-start: 5%;
          -webkit-padding-end: 5%; }
 
-li { padding: 0.5rem 0; }
+li { margin: 1rem 0; }
 
 li p { margin-bottom: 0.5rem;
        margin-top: 0.5rem; }
