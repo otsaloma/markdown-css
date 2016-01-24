@@ -11,8 +11,10 @@ body {
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;
-  padding: 30px 30px 8rem 30px;
   width: 728px;
+  max-width: 99%;
+  box-sizing: border-box;
+  padding: 30px 30px 8rem 30px;
   margin-left: auto;
   margin-right: auto;
 }
