@@ -18,7 +18,7 @@ pandoc foo.md \
        --smart
 ```
 
-**Preview**:
+**Preview:**
 [github](https://dl.dropboxusercontent.com/u/39625783/github.html)
 [tufte](https://dl.dropboxusercontent.com/u/39625783/tufte.html)
 
@@ -39,5 +39,5 @@ original sources.
 [1]: https://github.com/sindresorhus/github-markdown-css
 [2]: https://github.com/edwardtufte/tufte-css
 
-Stylesheets are available under the MIT license, see the file `COPYING`
-for details.
+Stylesheets are available under the MIT license, see the file
+[`COPYING`](COPYING) for details.
