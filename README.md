@@ -19,8 +19,8 @@ pandoc foo.md \
 ```
 
 **Preview:**
-[github](http://otsaloma.io/pub/markdown-css-github.html)
-[tufte](http://otsaloma.io/pub/markdown-css-tufte.html)
+[github](https://otsaloma.io/pub/markdown-css-github.html)
+[tufte](https://otsaloma.io/pub/markdown-css-tufte.html)
 
 Included stylesheets originate from other projects, and have merely been
 adapted to work with Markdown and Pandoc, and also styles of some
