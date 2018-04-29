@@ -14,8 +14,7 @@ pandoc foo.md \
        --to=html5 \
        --css=$HOME/.local/share/markdown-css/tufte.css \
        --highlight-style=haddock \
-       --self-contained \
-       --smart
+       --self-contained
 ```
 
 **Preview:**

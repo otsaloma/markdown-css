@@ -14,6 +14,6 @@ html: $(CSS_FILES:.css=.html)
 	--css=$< \
 	--highlight-style=haddock \
 	--self-contained \
-	--smart
+	2> /dev/null
 
 .PHONY: clean
