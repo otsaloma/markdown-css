@@ -487,6 +487,10 @@ body pre {
   border-radius: 3px;
 }
 
+.sourceCode {
+  background-color: #f7f7f7;
+}
+
 body .highlight pre {
   margin-bottom: 0;
   word-break: normal;
