@@ -1,6 +1,7 @@
 # -*- coding: utf-8-unix -*-
 
 CSS_FILES = $(wildcard *.css)
+.DEFAULT_GOAL = html
 
 clean:
 	rm -f *.html
@@ -16,4 +17,4 @@ html: $(CSS_FILES:.css=.html)
 	--embed-resources \
 	--standalone
 
-.PHONY: clean
+.PHONY: clean html
