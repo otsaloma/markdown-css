@@ -1,5 +1,4 @@
-Markdown CSS
-============
+# Markdown CSS
 
 This is a collection of stylesheets to use when converting Markdown text
 to HTML format. Stylesheets have been tested to work with Pandoc, but
@@ -13,8 +12,9 @@ pandoc foo.md \
        --output=foo.html \
        --to=html5 \
        --css=$HOME/.local/share/markdown-css/tufte.css \
-       --highlight-style=haddock \
-       --self-contained
+       --syntax-highlighting=haddock \
+       --embed-resources \
+       --standalone
 ```
 
 **Preview:**
@@ -29,10 +29,10 @@ review the changes and to merge changes in from upstream. Anyone looking
 for a base for their own work is likely to be better off turning to the
 original sources.
 
-* `github.css` is from [github-markdown-css][1] by Sindre Sorhus,
+- `github.css` is from [github-markdown-css][1] by Sindre Sorhus,
   available under the MIT license.
 
-* `tufte.css` and the font `et-book` are from [tufte-css][2] by Dave
+- `tufte.css` and the font `et-book` are from [tufte-css][2] by Dave
   Liepmann and contributors, available under the MIT license.
 
 [1]: https://github.com/sindresorhus/github-markdown-css

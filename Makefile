@@ -12,8 +12,8 @@ html: $(CSS_FILES:.css=.html)
 	--output=$@ \
 	--to=html5 \
 	--css=$< \
-	--highlight-style=haddock \
-	--self-contained \
-	2> /dev/null
+	--syntax-highlighting=haddock \
+	--embed-resources \
+	--standalone
 
 .PHONY: clean
