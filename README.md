@@ -40,3 +40,26 @@ original sources.
 
 Stylesheets are available under the MIT license, see the file
 [`COPYING`](COPYING) for details.
+
+## Markdown Viewer
+
+You can turn the above command into a Markdown viewer by writing output
+to a temporary file and then launching some browser to open that file.
+Compared to Markdown *editors*, this can be a bit simpler and compared
+to browser extensions, this is guaranteed to be local only.
+
+```bash
+#!/bin/sh
+OUTPUT=/tmp/md-$$.html
+pandoc "$1" \
+       --output=$OUTPUT \
+       --from=gfm \
+       --to=html5 \
+       --css=$HOME/.local/share/markdown-css/github.css \
+       --syntax-highlighting=haddock \
+       --resource-path="$(dirname "$1")" \
+       --embed-resources \
+       --standalone
+
+exec epiphany-browser --new-window $OUTPUT
+```
