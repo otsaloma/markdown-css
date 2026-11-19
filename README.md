@@ -21,26 +21,6 @@ pandoc foo.md \
 [github](https://otsaloma.io/pub/markdown-css-github.html)
 [tufte](https://otsaloma.io/pub/markdown-css-tufte.html)
 
-Included stylesheets originate from other projects, and have merely been
-adapted to work with Markdown and Pandoc, and also styles of some
-elements have been tweaked to suit the authors' use cases and personal
-taste. Original files have been kept in the repository to be able to
-review the changes and to merge changes in from upstream. Anyone looking
-for a base for their own work is likely to be better off turning to the
-original sources.
-
-- `github.css` is from [github-markdown-css][1] by Sindre Sorhus,
-  available under the MIT license.
-
-- `tufte.css` and the font `et-book` are from [tufte-css][2] by Dave
-  Liepmann and contributors, available under the MIT license.
-
-[1]: https://github.com/sindresorhus/github-markdown-css
-[2]: https://github.com/edwardtufte/tufte-css
-
-Stylesheets are available under the MIT license, see the file
-[`COPYING`](COPYING) for details.
-
 ## Markdown Viewer
 
 You can turn the above command into a Markdown viewer by writing output
@@ -63,3 +43,25 @@ pandoc "$1" \
 
 exec epiphany-browser --new-window $OUTPUT
 ```
+
+## License
+
+Included stylesheets originate from other projects, and have merely been
+adapted to work with Markdown and Pandoc, and also styles of some
+elements have been tweaked to suit the authors' use cases and personal
+taste. Original files have been kept in the repository to be able to
+review the changes and to merge changes in from upstream. Anyone looking
+for a base for their own work is likely to be better off turning to the
+original sources.
+
+- `github.css` is from [github-markdown-css][1] by Sindre Sorhus,
+  available under the MIT license.
+
+- `tufte.css` and the font `et-book` are from [tufte-css][2] by Dave
+  Liepmann and contributors, available under the MIT license.
+
+[1]: https://github.com/sindresorhus/github-markdown-css
+[2]: https://github.com/edwardtufte/tufte-css
+
+Stylesheets are available under the MIT license, see the file
+[`COPYING`](COPYING) for details.
